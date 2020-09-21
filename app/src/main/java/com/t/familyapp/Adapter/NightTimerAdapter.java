@@ -53,17 +53,15 @@ public class NightTimerAdapter extends CommonAdapter {
                 ((ListView) parent).performItemClick(v, position, R.id.text_come_home);
             }
         });
-
         UserData userData = getItem(position);
         if (userData != null) {
             userNameNight.setText(userData.getName());
             if (userData.getNightTime() != null) {
                 String nightTime = userData.getNightTime();
                 buttonNightTimer.setText(nightTime);
-                if(nightTime.equals(R.string.already_come)){
+                if (nightTime.equals(view.getResources().getString(R.string.already_come))) {
                     buttonNightTimer.setBackgroundColor(Color.RED);
-                }
-                else{
+                } else {
                     buttonNightTimer.setBackgroundColor(Color.WHITE);
                 }
             }

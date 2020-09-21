@@ -1,4 +1,4 @@
-package com.t.familyapp;
+package com.t.familyapp.Model;
 
 public class Constants {
     public static final String ACTION = "action";

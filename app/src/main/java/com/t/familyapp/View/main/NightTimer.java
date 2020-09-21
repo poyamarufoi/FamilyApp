@@ -100,6 +100,11 @@ public class NightTimer extends Fragment implements ReadCallback {
                         buttonComeTime.setText(R.string.already_come);
                         buttonComeTime.setBackgroundColor(Color.RED);
                         userData.setNightTime(getResources().getString(R.string.already_come));
+                        reference.child(firebaseKey).setValue(userData).addOnSuccessListener(new OnSuccessListener<Void>() {
+                            @Override
+                            public void onSuccess(Void v) {
+                            }
+                        });
                         break;
                     default:
                         //追加実装
