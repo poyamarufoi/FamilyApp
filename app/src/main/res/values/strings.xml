@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">FamilyApp</string>
+    <!-- ページタイトル  -->
+    <string name="fragment1_title">User</string>
+    <string name="fragment2_title">朝の時間</string>
+    <string name="fragment3_title">夜の時間</string>
+
+    <!-- ログイン画面 -->
+    <string name="login_address_title">メールアドレスでログイン</string>
+    <string name="mail_address">メールアドレス</string>
+    <string name="password">パスワード</string>
+    <string name="hint_address">sample@email.jp</string>
+    <string name="hint_password">パスワード</string>
+    <string name="button_login">ログイン</string>
+    <string name="button_register">新規登録</string>
+
+    <!-- User画面 -->
+
+    <!-- 編集画面 -->
+    <string name="hint_user">ユーザー名</string>
+    <string name="delete">消去</string>
+    <string name="update">更新</string>
+    <string name="delete_dialog_title">ユーザー消去</string>
+    <string name="delete_dialog_message">消去してもよろしいですか？</string>
+    <string name="delete_dialog_yes">Yes</string>
+    <string name="delete_dialog_no">No</string>
+
+    <!-- 追加画面 -->
+    <string name="timer_default">0:00</string>
+    <string name="register_user">登録</string>
+    <string name="user_name">ユーザー名</string>
+
+    <!-- 朝画面 -->
+    <string name="washroom">洗面所</string>
+    <string name="breakfast">朝食</string>
+    <string name="line">~</string>
+
+    <!-- 夜画面 -->
+    <string name="come_home_time">帰宅予定</string>
+    <string name="dinner">夕飯</string>
+    <string name="already_come">帰宅済</string>
+
+</resources>

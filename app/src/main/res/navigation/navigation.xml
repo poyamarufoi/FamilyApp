@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/fragment_user_management">
+    <fragment
+        android:name="com.t.familyapp.View.main.UserManagement"
+        android:id="@+id/fragment_user_management"
+        tools:layout="@layout/fragment_user_management"
+        />
+    <fragment
+        android:name="com.t.familyapp.View.main.MorningTimer"
+        android:id="@+id/fragment_morning"
+        tools:layout="@layout/fragment_morning"
+        />
+    <fragment
+        android:name="com.t.familyapp.View.main.NightTimer"
+        android:id="@+id/fragment_night"
+        tools:layout="@layout/fragment_night"
+        />
+
+</navigation>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "234318971958",
+    "firebase_url": "https://familytool-e7e08.firebaseio.com",
+    "project_id": "familytool-e7e08",
+    "storage_bucket": "familytool-e7e08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234318971958:android:4bbb3ad98c0074b0844497",
+        "android_client_info": {
+          "package_name": "com.t.familytool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234318971958-9npjqedqlqs02joihg6lp0q42h0qs677.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0yOx_meaGDI3xTyw_AcchXJS6aZ2B1-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234318971958-9npjqedqlqs02joihg6lp0q42h0qs677.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
